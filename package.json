@@ -1,0 +1,21 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zhenfeng-zhu/node-example.git",
+  "author": "zhenfeng-zhu <codeless98@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^4.19.1",
+    "kafka-node": "^2.5.0",
+    "redis": "^2.8.0",
+    "winston": "^3.0.0-rc2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
